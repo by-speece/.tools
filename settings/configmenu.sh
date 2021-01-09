@@ -26,3 +26,4 @@ case $CHOICE in
             sh settings/configs/Speece_DE[Dual]/install.sh
             ;;
 esac
+sh tools

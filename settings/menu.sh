@@ -33,4 +33,4 @@ case $CHOICE in
             ;;
 
 esac
-sh dottools.sh
+sh tools

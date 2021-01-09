@@ -28,3 +28,4 @@ do
             ;;
     esac
 done
+sh tools
