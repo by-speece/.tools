@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#!/bin/zsh
 HEIGHT=30
 WIDTH=60
 CHOICE_HEIGHT=10
@@ -12,7 +12,7 @@ OPTIONS=(
          2 "System Management"
          3 "Packages Managers Tools"
          4 "Basic troubleshooting assistant"
-         5 ".tools Upgrade")
+         5 ".tools Upgrade/Install")
 
 CHOICE=$(whiptail --clear \
                 --backtitle "$BACKTITLE" \
