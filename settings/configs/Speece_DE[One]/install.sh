@@ -1,9 +1,11 @@
 #Speece_DE[One Monitor] Install file
 mkdir ~/.settings
-cp -rf ~/.tools/settings/configs/Speece_DE[One]/* ~/.settings/
-sudo pacman -Syu --needed --nocofirm -<dependencies.txt
-yay -Syu --needed --nocofirm -<aur.txt
+cp -rf ~/.tools/settings/configs/Speece_DE[One]/. ~/.settings/
+sudo pacman -Syu --needed --noconfirm -<~/.settings/dependencies.txt
+yay -Syu --needed -<~/.settings/aur.txt
 sudo systemctl enable ly
+rm -rf ~/.config/gtk-3.0
+ln -s ~/.settings/config/gtk-3.0	~/.config/
 rm -rf ~/.config/dunst
 ln -s ~/.settings/config/dunst		~/.config/
 rm -rf ~/.config/i3
@@ -39,5 +41,5 @@ ln -s ~/.settings/.zshrc		~/
 rm -rf ~/.zshrc.zni
 ln -s ~/.settings/.zshrc.zni		~/
 rm -rf ~/.config/alacritty
-ln -s ~/.settings/.config/alacritty	~/.config/
+ln -s ~/.settings/config/alacritty	~/.config/
 sudo chmod +s /usr/bin/light

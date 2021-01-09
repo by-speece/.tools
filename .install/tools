@@ -1,3 +1,4 @@
 cd ~/.tools
 sh dottools.sh
 cd -
+clear
