@@ -3,8 +3,6 @@ betterlockscreen
 polybar
 github-desktop-bin
 typora
-brother-dcpj315w
-brscan3
 clipit
 cava
 i3lock-color
@@ -13,13 +11,9 @@ ly
 picom-git
 pyinstaller
 rofi-bluetooth-git
-rtl8821ce-dkms-git
 siji-git
-teams
 termsyn-font
 ttf-material-icons-git
 ttf-ms-fonts
-waifu2x-ncnn-vulkan-git
-wd719x-firmware
 xava-git
 ttf-roboto
