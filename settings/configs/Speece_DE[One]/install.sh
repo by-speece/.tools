@@ -1,8 +1,8 @@
 #Speece_DE[One Monitor] Install file
 mkdir ~/.settings
-cp -rf ~/.tools/settings/configs/Speece_DE[One]/. ~/.settings/
+cp -rfa ~/.tools/settings/configs/Speece_DE[One]/. ~/.settings/
 sudo pacman -Syu --needed --noconfirm -<~/.settings/dependencies.txt
-#yay -Syu --needed -<~/.settings/aur.txt
+yay -Syu --needed -<~/.settings/aur.txt
 sudo systemctl enable ly
 rm -rf ~/.config/gtk-3.0
 ln -s ~/.settings/config/gtk-3.0	~/.config/
