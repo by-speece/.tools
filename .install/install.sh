@@ -9,7 +9,8 @@ sudo cp -rf ~/.tools/.install/tools /usr/bin/
 cd ~
 git clone https://aur.archlinux.org/yay-bin.git
 cd yay-bin
-makepkg -si --noconfirm
+makepkg -i
+sudo pacman -U --noconfirm -needed *.pkg.tar.zst
 cd ~
 rm -rf yay-bin
 rm install.sh
