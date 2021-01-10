@@ -2,11 +2,10 @@
 
 .tools is a simple manager of your arch linux instance, including tools to quickly fix the most common bugs. It also allows you to easily back up your rice and quickly restore them with the same or different hardware, including dependencies! Of course, you have to manually configure it based on a template. [Link to template soon]
 
-# Depedences
+# How to install?
 
 ```
-whiptail
-reflector
+wget -O - https://raw.githubusercontent.com/by-speece/.tools/main/.install/install.sh | bash
 
 
 ```
