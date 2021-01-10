@@ -6,4 +6,6 @@ git submodule update --init --recursive --remote
 cd ~/.tools/ARPM
 git pull
 sudo cp -rf ~/.tools/.install/tools /usr/bin/
+cd ~
+rm install.sh
 tools
