@@ -8,7 +8,7 @@ TITLE="Install Packages Packs"
 MENU="What you want to do?"
 
 OPTIONS=(1 "Speece Pack"
-         2  "Xorg-pack")
+         2  "Xorg pack")
 
 
 CHOICE=$(whiptail --clear \
@@ -22,10 +22,10 @@ CHOICE=$(whiptail --clear \
 clear
 case $CHOICE in
         1)
-            sudo pacman -Syu -<packs/speecepack/repo.txt
+            sudo pacman -Syu --needed -<packs/speecepack/repo.txt
             yay -Syu -<packs/speecepack/aur.txt
             ;;
         2)
-            sh packs/xorg.sh
+            sudo pacman -Syu --needed -<packs/xorgpack/repo.txt
 esac
 sh tools

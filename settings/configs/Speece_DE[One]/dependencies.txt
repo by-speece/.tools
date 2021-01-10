@@ -1,3 +1,4 @@
+i3-gaps
 alacritty
 lxappearance-gtk3
 nano-syntax-highlighting
