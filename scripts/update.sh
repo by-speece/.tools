@@ -9,4 +9,4 @@ cd yay-bin
 makepkg -si
 cd ~
 rm -rf yay-bin
-sh tools
+sudo pacman -S --needed --noconfirm reflector whiptail
