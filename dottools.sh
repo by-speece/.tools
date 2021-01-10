@@ -27,21 +27,26 @@ clear
 case $CHOICE in
         1)
             sh ARPM/menu.sh
+            sh tools 
             ;;
         2)
             sh scripts/system/menu.sh
+            sh tools
             ;;
 	      3)
             sh scripts/packages.sh
+            sh tools
             ;;
         4)
             sh scripts/helper/menu.sh
+            sh tools
             ;;
         5)
-            sh packages/menu.sh
+            sh packages/menu.
+            sh tools
             ;;
         6)
             sh .install/update.sh
+            sh tools
             ;;
     esac
-sh tools
