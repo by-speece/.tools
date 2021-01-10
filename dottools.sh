@@ -8,7 +8,7 @@ TITLE=".tool Managment"
 MENU="What you want to do?"
 
 OPTIONS=(
-         1 ".settings Management"
+         1 "[ARPM]Arch Rice Package Manager"
          2 "System Management"
          3 "Packages Managers Tools"
          4 "Basic troubleshooting assistant"
