@@ -41,6 +41,7 @@ case $CHOICE in
             sh packages/menu.sh
             ;;
         6)
-            sh scripts/update.sh
+            sh .install/update.sh
             ;;
     esac
+sh tools
