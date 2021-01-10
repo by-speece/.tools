@@ -26,7 +26,7 @@ CHOICE=$(whiptail --clear \
 clear
 case $CHOICE in
         1)
-            sh settings/menu.sh
+            sh ARPM/menu.sh
             ;;
         2)
             sh scripts/system/menu.sh
