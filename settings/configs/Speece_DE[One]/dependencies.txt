@@ -1,3 +1,4 @@
+alacritty
 lxappearance-gtk3
 nano-syntax-highlighting
 libcaca

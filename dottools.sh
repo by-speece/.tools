@@ -12,7 +12,8 @@ OPTIONS=(
          2 "System Management"
          3 "Packages Managers Tools"
          4 "Basic troubleshooting assistant"
-         5 ".tools Upgrade/Install")
+         5 "Packages Packs"
+         6 ".tools Upgrade/Install")
 
 CHOICE=$(whiptail --clear \
                 --backtitle "$BACKTITLE" \
@@ -37,6 +38,9 @@ case $CHOICE in
             sh scripts/helper/menu.sh
             ;;
         5)
+            sh packages/menu.sh
+            ;;
+        6)
             sh scripts/update.sh
             ;;
     esac

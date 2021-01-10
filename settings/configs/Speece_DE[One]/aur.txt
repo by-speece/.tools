@@ -1,7 +1,6 @@
 paper-icon-theme-git
 betterlockscreen
 polybar
-github-desktop-bin
 typora
 clipit
 cava

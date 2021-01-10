@@ -1,0 +1,7 @@
+waifu2x-ncnn-vulkan-git
+wd719x-firmware
+brother-dcpj315w
+brscan3
+rtl8821ce-dkms-git
+teams
+github-desktop-bin
