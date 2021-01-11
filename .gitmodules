@@ -1,4 +1,0 @@
-[submodule "ARPM"]
-	path = ARPM
-	url = https://github.com/by-speece/ARPM
-	branch = main
