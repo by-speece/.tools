@@ -18,7 +18,7 @@ CHOICE=$(whiptail --clear \
 clear
 case $CHOICE in
         1)
-            sh ~/.tools/SpeeceWorkflow/scipts/xrandr-desktop.sh
+            sh ~/.tools/SpeeceWorkflow/scripts/xrandr-desktop.sh
             sh ~/.tools/SpeeceWorkflow/menu.sh
             ;;
         2)  sh ~/.tools/SpeeceWorkflow/scripts/xrandr-notebook.sh
