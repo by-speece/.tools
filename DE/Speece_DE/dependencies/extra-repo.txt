@@ -1,0 +1,13 @@
+libreoffice-fresh
+libreoffice-fresh-pl
+discord
+calibre
+audacity
+chromium
+mpv
+obs-studio
+scribus
+krita
+rawtherapee
+inkscape
+gimp

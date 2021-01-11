@@ -8,13 +8,13 @@ TITLE=".tool Managment"
 MENU="What you want to do?"
 
 OPTIONS=(
-         1 "[ARPM]Arch Rice Package Manager"
+         1 "Rice Manager"
          2 "System Management"
          3 "Packages Managers Tools"
          4 "Basic troubleshooting assistant"
          5 "Packages Packs"
-         6 ".tools Upgrade/Install"
-         7 "Speece Workflow")
+         6 "Autorun Manager"
+         7 ".tools Upgrade")
 
 CHOICE=$(whiptail --clear \
                 --backtitle "$BACKTITLE" \
@@ -27,7 +27,7 @@ CHOICE=$(whiptail --clear \
 clear
 case $CHOICE in
         1)
-            sh ARPM/menu.sh
+            sh DE/menu.sh
             sh tools
             ;;
         2)
@@ -43,15 +43,15 @@ case $CHOICE in
             sh tools
             ;;
         5)
-            sh packages/menu.
+            sh packages/menu.sh
             sh tools
             ;;
         6)
-            sh .install/update.sh
+            sh SpeeceWorkflow/menu.sh
             sh tools
             ;;
         7)
-            sh SpeeceWorkflow/menu.sh
+            sh .install/update.sh
             sh tools
             ;;
     esac
