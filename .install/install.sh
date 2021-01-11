@@ -11,4 +11,5 @@ T
 cd ~
 rm -rf yay-bin
 rm install.sh
+chmod 777 -R ~/.tools
 tools

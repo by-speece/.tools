@@ -309,18 +309,6 @@ bindsym $mod+k [class="Signal"] scratchpad show; [class="Signal"] move position 
 
 #libinput-gestures
 exec --no-startup-id libinput-gestures-setup start
-exec_always --no-startup-id ~/.tools/autorun/service_always.sh
+#Autorun
+exec_always --no-startup-id sh ~/.tools/autorun/service_always.sh
 exec --no-startup-id ~/.tools/autorun/service.sh
-
-#Workspace for left screen
-workspace $ws0 output HDMI-0
-#Workspace for Right Screen
-workspace $ws1	output DP-0
-workspace $ws2	output DP-0
-workspace $ws3	output DP-0
-workspace $ws4	output DP-0
-workspace $ws5	output DP-0
-workspace $ws6	output DP-0
-workspace $ws7	output DP-0
-workspace $ws8	output DP-0
-workspace $ws9	output DP-0

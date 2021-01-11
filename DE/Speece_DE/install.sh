@@ -54,6 +54,7 @@ do
             yay -Syu --noconfirm --needed -<~/.tools/DE/Speece_DE/dependencies/base-aur.txt
             sudo rm -rf /etc/systemd/system/display-manager.service
             sudo systemctl enable ly.service
+            betterlockscreen -U ~/.tools/Wallpaper/Wallpaper.png
             ;;
         4)
             sudo pacman -Syu --needed --noconfirm -<~/.tools/DE/Speece_DE/dependencies/extra-repo.txt

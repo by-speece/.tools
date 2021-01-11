@@ -3,8 +3,8 @@ WIDTH=50
 CHOICE_HEIGHT=10
 MENU="What you want to use?"
 
-OPTIONS=(1 "DPI settings"
-         2 "I3  settings")
+OPTIONS=(1 "Xrandr Script-Desktop - 23 inch + 1920 x 1080"
+         2 "Xrandr Script-Notebook - 14 inch + 1920 x 1080")
 
 
 CHOICE=$(whiptail --clear \
@@ -18,10 +18,12 @@ CHOICE=$(whiptail --clear \
 clear
 case $CHOICE in
         1)
-            sh ~/.tools/AutorunManager/scripts/xrandr/xrandr.sh
+            sh ~/.tools/AutorunManager/scripts/xrandr/xrandr-desktop.sh
+            cp -rf ~/.tools/AutorunManager/scripts/xrandr/xrandr-desktop.sh ~/.tools/autorun/dpi.sh
             sh ~/.tools/AutorunManager/menu.sh
             ;;
-        2)  sh ~/.tools/AutorunManager/scripts/i3-config/i3.sh
+        2)  sh ~/.tools/AutorunManager/scripts/xrandr/xrandr-notebook.sh
+            cp -rf ~/.tools/AutorunManager/scripts/xrandr/xrandr-notebook.sh ~/.tools/autorun/dpi.sh
             sh ~/.tools/AutorunManager/menu.sh
             ;;
 
