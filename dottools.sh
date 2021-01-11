@@ -13,7 +13,8 @@ OPTIONS=(
          3 "Packages Managers Tools"
          4 "Basic troubleshooting assistant"
          5 "Packages Packs"
-         6 ".tools Upgrade/Install")
+         6 ".tools Upgrade/Install"
+         7 "Speece Workflow")
 
 CHOICE=$(whiptail --clear \
                 --backtitle "$BACKTITLE" \
@@ -27,7 +28,7 @@ clear
 case $CHOICE in
         1)
             sh ARPM/menu.sh
-            sh tools 
+            sh tools
             ;;
         2)
             sh scripts/system/menu.sh
@@ -47,6 +48,10 @@ case $CHOICE in
             ;;
         6)
             sh .install/update.sh
+            sh tools
+            ;;
+        7)
+            sh SpeeceWorkflow/menu.sh
             sh tools
             ;;
     esac
