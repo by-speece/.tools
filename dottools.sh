@@ -47,7 +47,7 @@ case $CHOICE in
             sh tools
             ;;
         6)
-            sh SpeeceWorkflow/menu.sh
+            sh AutorunManager/menu.sh
             sh tools
             ;;
         7)
