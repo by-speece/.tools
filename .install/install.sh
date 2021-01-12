@@ -9,7 +9,7 @@ cd ~
 git clone https://aur.archlinux.org/yay-bin.git
 cd yay-bin
 makepkg -si
-cd ~
+T
 rm -rf yay-bin
 rm -rf ~/.tools.d
 mkdir ~/.tools.d
