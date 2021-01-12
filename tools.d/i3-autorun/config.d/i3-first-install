@@ -1,2 +1,2 @@
-exec_always --no-startup-id sh ~/.tools/tools.d/service_always.sh
-exec --no-startup-id ~/.tools/tools.d/service.sh
+exec_always --no-startup-id sh ~/.tools.d/service_always.sh
+exec --no-startup-id ~/.tools.d/service.sh

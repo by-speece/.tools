@@ -10,6 +10,8 @@ makepkg -si
 T
 cd ~
 rm -rf yay-bin
+rm -rf ~/.tools.d
+mkdir ~/.tools.d
+cp -rfa ~/.tools/tools.d/.   ~/.tools.d
 rm install.sh
-chmod 777 -R ~/.tools
 tools
