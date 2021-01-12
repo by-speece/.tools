@@ -18,7 +18,6 @@ CHOICE=$(whiptail --clear \
 clear
 case $CHOICE in
         1)
-            mkdir ~/.tools.d/picom-autorun/
 	          cp -rf ~/.tools/modules/AutorunManager/scripts/picom/picom-on.sh ~/.tools.d/picom-autorun/picom.sh
             i3-msg restart
             ;;
