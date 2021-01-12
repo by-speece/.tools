@@ -1,5 +1,7 @@
 cd ~
 git clone https://github.com/by-speece/.tools
+mkdir ~/.tools.d
+cp -rfa ~/.tools/tools.d/.   ~/.tools.d
 sudo pacman -Syu --needed --noconfirm reflector
 cd ~/.tools
 sudo cp -rf ~/.tools/.install/tools /usr/bin/
