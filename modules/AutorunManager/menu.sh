@@ -18,11 +18,11 @@ CHOICE=$(whiptail --clear \
 clear
 case $CHOICE in
         1)
-            sh ~/.tools/AutorunManager/scripts/xrandr/xrandr.sh
-            sh ~/.tools/AutorunManager/menu.sh
+            sh ~/.tools/modules/AutorunManager/scripts/xrandr/xrandr.sh
+            sh ~/.tools/modules/AutorunManager/menu.sh
             ;;
-        2)  sh ~/.tools/AutorunManager/scripts/i3-config/i3.sh
-            sh ~/.tools/AutorunManager/menu.sh
+        2)  sh ~/.tools/modules/AutorunManager/scripts/i3-config/i3.sh
+            sh ~/.tools/modules/AutorunManager/menu.sh
             ;;
 
 esac

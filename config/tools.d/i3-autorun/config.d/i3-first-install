@@ -1,0 +1,2 @@
+exec_always --no-startup-id sh ~/.tools/config/tools.d/service_always.sh
+exec --no-startup-id ~/.tools/config/tools.d/service.sh

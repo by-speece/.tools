@@ -9,12 +9,10 @@ MENU="What you want to do?"
 
 OPTIONS=(
          1 "Rice Manager"
-         2 "System Management"
-         3 "Packages Managers Tools"
+         2 "Packages Managers Tools"
+         3 "Autorun Manager"
          4 "Basic troubleshooting assistant"
-         5 "Packages Packs"
-         6 "Autorun Manager"
-         7 ".tools Upgrade")
+         5 ".tools Upgrade")
 
 CHOICE=$(whiptail --clear \
                 --backtitle "$BACKTITLE" \
@@ -27,30 +25,22 @@ CHOICE=$(whiptail --clear \
 clear
 case $CHOICE in
         1)
-            sh DE/menu.sh
+            sh ~/.tools/modules/DE/menu.sh
             sh tools
             ;;
         2)
-            sh scripts/system/menu.sh
+            sh ~/.tools/modules/PackagesManager
             sh tools
             ;;
 	      3)
-            sh scripts/packages.sh
+            sh ~/.tools/modules/AutorunManager/menu.sh
             sh tools
             ;;
         4)
-            sh scripts/helper/menu.sh
+            echo "This will be added in the future"
             sh tools
             ;;
         5)
-            sh packages/menu.sh
-            sh tools
-            ;;
-        6)
-            sh AutorunManager/menu.sh
-            sh tools
-            ;;
-        7)
             sh .install/update.sh
             sh tools
             ;;

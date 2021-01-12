@@ -19,8 +19,7 @@ CHOICE=$(whiptail --clear \
 clear
 case $CHOICE in
         1)
-            sh ~/.tools/DE/Speece_DE/install.sh
+            sh ~/.tools/modules/DE/Speece_DE/install.sh
             ;;
 
 esac
-sh tools

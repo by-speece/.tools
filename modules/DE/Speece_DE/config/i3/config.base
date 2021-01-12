@@ -212,12 +212,6 @@ client.placeholder          #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.background           #2f343f
 
 
-# Set Wallpaper (directory to be specified)
-exec_always --no-startup-id feh --bg-fill ~/.tools/Wallpapers/Wallpaper.png
-
-#Montowanie
-exec --no-startup-id udiskie
-
 #Screenshot
 bindsym Print exec --no-startup-id gnome-screenshot -i
 bindsym $mod+Print exec --no-startup-id gnome-screenshot -a
@@ -252,6 +246,7 @@ for_window [class="KeePassXC"] move scratchpad
 for_window [class="KeePassXC"] border pixel 3
 for_window [class="KeePassXC"] resize set 800 600
 bindsym $mod+u [class="KeePassXC"] scratchpad show; [class="KeePassXC"] move position center
+
 #Nautilus
 for_window [class=Nautilus] resize set 800 600
 for_window [class=Nautilus] move position center
@@ -297,7 +292,6 @@ for_window [class="Typora"] resize set 1300 800
 bindsym $mod+n [class="Typora"] scratchpad show; [class="Typora"] move position center
 
 #Clipit
-
 exec --no-startup-id clipit
 
 #Signal
@@ -309,6 +303,16 @@ bindsym $mod+k [class="Signal"] scratchpad show; [class="Signal"] move position 
 
 #libinput-gestures
 exec --no-startup-id libinput-gestures-setup start
+
+#Wallpaper
+exec_always --no-startup-id feh --bg-fill ~/.tools/config/Wallpapers/Wallpaper.png
+
+#Automatic Mount
+exec --no-startup-id udiskie
+
+#Taping on touchpad
+exec --no-startup-id xinput set-prop "Elan Touchpad" "libinput Tapping Enabled" 1
+
 #Autorun
-exec_always --no-startup-id sh ~/.tools/autorun/service_always.sh
-exec --no-startup-id ~/.tools/autorun/service.sh
+exec_always --no-startup-id sh ~/.tools/config/tools.d/service_always.sh
+exec --no-startup-id ~/.tools/config/tools.d/service.sh
