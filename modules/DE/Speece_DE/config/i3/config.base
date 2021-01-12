@@ -239,7 +239,6 @@ exec --no-startup-id xss-lock betterlockscreen --transfer-sleep-lock dim
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 #Przezroczystość konsoli
-#exec --no-startup-id picom
 #Keypass
 exec --no-startup-id keepassxc
 for_window [class="KeePassXC"] move scratchpad
@@ -252,7 +251,6 @@ for_window [class=Nautilus] resize set 800 600
 for_window [class=Nautilus] move position center
 for_window [class=Nautilus] floating enable
 
-exec  --no-startup-id picom --experimental-backends --backend glx
 
 #Syncthing
 exec --no-startup-id syncthing-gtk
