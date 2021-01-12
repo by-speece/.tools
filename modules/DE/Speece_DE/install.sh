@@ -25,8 +25,6 @@ do
             ln -s ~/.tools/modules/DE/Speece_DE/config/nautilus	~/.config/
             rm -rf ~/.config/polybar
             ln -s ~/.tools/modules/DE/Speece_DE/config/polybar	~/.config/
-            rm -rf ~/.config/ranger
-            ln -s ~/.tools/modules/DE/Speece_DE/config/ranger	~/.config/
             rm -rf ~/.config/rofi
             ln -s ~/.tools/modules/DE/Speece_DE/config/rofi		~/.config/
             rm -rf ~/.config/libinput-gestures.conf
