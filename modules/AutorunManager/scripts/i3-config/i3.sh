@@ -27,7 +27,7 @@ case $CHOICE in
             sh ~/.tools.d/service.sh
             ;;
         3)
-            cp ~/.tools/modules/AutorunManager/scripts/i3-config/i3-one-monitor     ~/..tools.d/i3-autorun/config.d/config.display
+            cp ~/.tools/modules/AutorunManager/scripts/i3-config/i3-one-monitor     ~/.tools.d/i3-autorun/config.d/config.display
             sh ~/.tools.d/service.sh
             ;;
 esac
