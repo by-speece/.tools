@@ -314,5 +314,5 @@ exec --no-startup-id udiskie
 exec --no-startup-id xinput set-prop "Elan Touchpad" "libinput Tapping Enabled" 1
 
 #Autorun
-exec_always --no-startup-id sh ~/.tools/config/tools.d/service_always.sh
-exec --no-startup-id ~/.tools/config/tools.d/service.sh
+exec_always --no-startup-id sh ~/.tools/tools.d/service_always.sh
+exec --no-startup-id ~/.tools/tools.d/service.sh

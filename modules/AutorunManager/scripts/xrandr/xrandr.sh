@@ -19,11 +19,11 @@ clear
 case $CHOICE in
         1)
             sh ~/.tools/modules/AutorunManager/scripts/xrandr/xrandr-desktop.sh
-            cp -rf ~/.tools/modules/AutorunManager/scripts/xrandr/xrandr-desktop.sh ~/.tools/config/tools.d/dpi-autorun/dpi.sh
+            cp -rf ~/.tools/modules/AutorunManager/scripts/xrandr/xrandr-desktop.sh ~/.tools/tools.d/dpi-autorun/dpi.sh
             sh ~/.tools/modules/AutorunManager/menu.sh
             ;;
         2)  sh ~/.tools/modules/AutorunManager/scripts/xrandr/xrandr-notebook.sh
-            cp -rf ~/.tools/modules/AutorunManager/scripts/xrandr/xrandr-notebook.sh ~/.tools/config/tools.d/dpi-autorun/dpi.sh
+            cp -rf ~/.tools/modules/AutorunManager/scripts/xrandr/xrandr-notebook.sh ~/.tools/tools.d/dpi-autorun/dpi.sh
             sh ~/.tools/modules/AutorunManager/menu.sh
             ;;
 

@@ -16,10 +16,10 @@ do
             rm -rf ~/.config/dunst
             ln -s ~/.tools/modules/DE/Speece_DE/config/dunst		~/.config/
             rm -rf ~/.config/i3
-            rm -rf ~/.tools/config/tools.d/i3-autorun/config.d/config.base
-            ln -s ~/.tools/modules/DE/Speece_DE/config/i3/config.base		~/.tools/config/tools.d/i3-autorun/config.d/
-            ln -s ~/.tools/config/tools.d/i3-autorun/config.d/i3        ~/.config
-            cp -rf ~/.tools/config/tools.d/i3-autorun/config.d/i3-first-install ~/.tools/config/tools.d/i3-autorun/config.d/i3/config
+            rm -rf ~/.tools/tools.d/i3-autorun/config.d/config.base
+            ln -s ~/.tools/modules/DE/Speece_DE/config/i3/config.base		~/.tools/tools.d/i3-autorun/config.d/
+            ln -s ~/.tools/tools.d/i3-autorun/config.d/i3        ~/.config
+            cp -rf ~/.tools/tools.d/i3-autorun/config.d/i3-first-install ~/.tools/tools.d/i3-autorun/config.d/i3/config
             rm -rf ~/.config/nautilus
             ln -s ~/.tools/modules/DE/Speece_DE/config/nautilus	~/.config/
             rm -rf ~/.config/polybar
