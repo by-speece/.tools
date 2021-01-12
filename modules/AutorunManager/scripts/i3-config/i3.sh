@@ -19,15 +19,15 @@ CHOICE=$(whiptail --clear \
 clear
 case $CHOICE in
         1)
-            cp ~/.tools/modules/AutorunManager/scripts/i3-config/i3-dual-monitor-hdmi+dpi     ~/.tools/tools.d/i3-config/config.display
-            sh ~/.tools/config/tools.d/service.sh
+            cp ~/.tools/modules/AutorunManager/scripts/i3-config/i3-dual-monitor-hdmi+dpi     ~/.tools/tools.d/i3-autorun/config.d/config.display
+            sh ~/.tools/tools.d/service.sh
             ;;
         2)
-            cp ~/.tools/modules/AutorunManager/scripts/i3-config/i3-dual-netbook+hdmi     ~/.tools/tools.d/i3-config/config.display
-            sh ~/.tools/config/tools.d/service.sh
+            cp ~/.tools/modules/AutorunManager/scripts/i3-config/i3-dual-netbook+hdmi     ~/.tools/tools.d/i3-autorun/config.d/config.display
+            sh ~/.tools/tools.d/service.sh
             ;;
         3)
-            cp ~/.tools/modules/AutorunManager/scripts/i3-config/i3-one-monitor     ~/.tools/tools.d/i3-config/config.display
-            sh ~/.tools/config/tools.d/service.sh
+            cp ~/.tools/modules/AutorunManager/scripts/i3-config/i3-one-monitor     ~/.tools/tools.d/i3-autorun/config.d/config.display
+            sh ~/.tools/tools.d/service.sh
             ;;
 esac

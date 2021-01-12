@@ -4,7 +4,7 @@ CHOICE_HEIGHT=10
 MENU="What you want to use?"
 
 OPTIONS=(1 "DPI settings"
-         2 "I3  settings")
+         2 "I3  Monitor settings")
 
 
 CHOICE=$(whiptail --clear \

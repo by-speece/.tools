@@ -29,7 +29,7 @@ case $CHOICE in
             sh tools
             ;;
         2)
-            sh ~/.tools/modules/PackagesManager
+            sh ~/.tools/modules/PackagesManager/packages.sh
             sh tools
             ;;
 	      3)
