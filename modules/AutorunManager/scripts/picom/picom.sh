@@ -18,8 +18,9 @@ CHOICE=$(whiptail --clear \
 clear
 case $CHOICE in
         1)
-            cp -rf ~/.tools/modules/AutorunManager/scripts/picom/picom-on.sh ~/.tools.d/picom-autorun/picom.sh
-            sh ~/.tools.d/service_always.sh > /dev/null 2>&1
+            mkdir ~/.tools.d/picom-autorun/
+	          cp -rf ~/.tools/modules/AutorunManager/scripts/picom/picom-on.sh ~/.tools.d/picom-autorun/picom.sh
+            i3-msg restart
             ;;
         2)  rm -rf ~/.tools.d/picom-autorun/picom.sh
             killall picom
