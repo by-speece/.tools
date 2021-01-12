@@ -1,5 +1,6 @@
 cd ~
 git clone https://github.com/by-speece/.tools
+echo "Instalacja tools.d"
 mkdir ~/.tools.d
 cp -rfa ~/.tools/tools.d/.   ~/.tools.d
 sudo pacman -Syu --needed --noconfirm reflector
