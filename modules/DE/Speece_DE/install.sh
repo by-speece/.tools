@@ -17,7 +17,7 @@ do
             ln -s ~/.tools/modules/DE/Speece_DE/config/dunst		~/.config/
             rm -rf ~/.config/i3
             rm -rf ~/.tools.d/i3-autorun/config.d/config.base
-            ln -s ~/.tools/modules/DE/Speece_DE/config/i3/config.base		~/.tools.d/i3-autorun/config.d/
+            ln -s ~/.tools/modules/DE/Speece_DE/config/i3/config.base		~/.tools.d/i3-autorun/config.d/config.base
             ln -s ~/.tools.d/i3-autorun/config.d/i3        ~/.config
             cp -rf ~/.tools.d/i3-autorun/config.d/i3-first-install ~/.tools.d/i3-autorun/config.d/i3/config
             rm -rf ~/.config/nautilus
